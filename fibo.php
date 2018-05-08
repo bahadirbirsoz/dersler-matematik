@@ -57,7 +57,7 @@ echo "Fibo Array : \n";
 
 $t1 = time() + microtime(true);
 for ($i = 0; $i < 100000; $i++) {
-    fiboAlt(30);
+    fiboArr(30);
 }
 $t2 = time() + microtime(true);
 echo "Süre : ", ($t2 - $t1), "\n";
